@@ -69,9 +69,8 @@ function translate()
 
 function initThemeSelector()
 {
-    let navTheme = (navigator.theme) ? navigator.theme : null;
     let userTheme = localStorage.getItem('userTheme');
-    if(userTheme) setTheme(userTheme); else if(navTheme) setTheme(navTheme);
+    if(userTheme) setTheme(userTheme); else setTheme("light");
 
     for(let el of document.querySelectorAll(".box-theme-selector input[name='theme']")) {
         el.addEventListener("click", () => { setTheme(el.value); });
