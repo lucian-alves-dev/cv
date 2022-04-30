@@ -1,0 +1,103 @@
+.svg-icon {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    mask-size: contain;
+    mask-position: center;
+    mask-repeat: no-repeat;
+    background-color: #000;
+    transition: 0.5s;
+}
+
+.svg-icon.magician {
+    -webkit-mask-image: url(/img/magician.svg);
+    mask-image: url(/img/magician.svg);
+}
+
+.svg-icon.engineer {
+    -webkit-mask-image: url(/img/engineer.svg);
+    mask-image: url(/img/engineer.svg);
+}
+
+.svg-icon.teacher {
+    -webkit-mask-image: url(/img/teacher.svg);
+    mask-image: url(/img/teacher.svg);
+}
+
+.svg-icon.html {
+    -webkit-mask-image: url(/img/skills/html.svg);
+    mask-image: url(/img/skills/html.svg);
+}
+
+.svg-icon.css {
+    -webkit-mask-image: url(/img/skills/css.svg);
+    mask-image: url(/img/skills/css.svg);
+}
+
+.svg-icon.js {
+    -webkit-mask-image: url(/img/skills/js.svg);
+    mask-image: url(/img/skills/js.svg);
+}
+
+.svg-icon.php {
+    -webkit-mask-image: url(/img/skills/php.svg);
+    mask-image: url(/img/skills/php.svg);
+}
+
+.svg-icon.sql {
+    -webkit-mask-image: url(/img/skills/sql.svg);
+    mask-image: url(/img/skills/sql.svg);
+}
+
+.svg-icon.git {
+    -webkit-mask-image: url(/img/skills/git.svg);
+    mask-image: url(/img/skills/git.svg);
+}
+
+.svg-icon.linux {
+    -webkit-mask-image: url(/img/skills/linux.svg);
+    mask-image: url(/img/skills/linux.svg);
+}
+
+.svg-icon.vue {
+    -webkit-mask-image: url(/img/skills/vue.svg);
+    mask-image: url(/img/skills/vue.svg);
+}
+
+.svg-icon.fast-learner {
+    -webkit-mask-image: url(/img/skills/fast-learner.svg);
+    mask-image: url(/img/skills/fast-learner.svg);
+}
+
+.svg-icon.born-teacher {
+    -webkit-mask-image: url(/img/skills/born-teacher.svg);
+    mask-image: url(/img/skills/born-teacher.svg);
+}
+
+.svg-icon.problem-solver {
+    -webkit-mask-image: url(/img/skills/problem-solver.svg);
+    mask-image: url(/img/skills/problem-solver.svg);
+}
+
+.svg-icon.plainspoken {
+    -webkit-mask-image: url(/img/skills/plainspoken.svg);
+    mask-image: url(/img/skills/plainspoken.svg);
+}
+
+.svg-icon.email {
+    -webkit-mask-image: url(/img/email.svg);
+    mask-image: url(/img/email.svg);
+}
+
+.svg-icon.github {
+    -webkit-mask-image: url(/img/github.svg);
+    mask-image: url(/img/github.svg);
+}
+
+.svg-icon.linkedin {
+    -webkit-mask-image: url(/img/linkedin.svg);
+    mask-image: url(/img/linkedin.svg);
+}

@@ -1,0 +1,43 @@
+.bg-app-footer {
+    background-image: var(--primary-highlight-gradient);
+    color: #FFF;
+    margin-top: -90px;
+    padding-top: 60px;
+}
+
+.app-footer .info {
+    text-align: center;
+    padding: 60px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.app-footer .end {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-top: 1px solid white;
+}
+
+.app-footer .end .medias {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.app-footer .end .medias .svg-icon {
+    display: inline-block;
+    margin: 8px;
+    width: 20px;
+    height: 20px;
+    background-color: #FFF;
+}
+
+.app-footer .end .author {
+    padding: 15px;
+}
+
+.app-footer .end .medias a:hover .svg-icon {
+    background-color: var(--secondary-highlight-color);
+}

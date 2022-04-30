@@ -1,0 +1,88 @@
+.bg-section-introduction {
+    background-image: var(--primary-highlight-gradient);
+    color: #FFF;
+    padding-top: 100px;
+}
+
+.section-introduction {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px;
+    padding-bottom: 90px;
+}
+
+.section-introduction > * {
+    margin: 15px;
+}
+
+.section-introduction .photo {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.section-introduction .box-introduction {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 571px;
+}
+
+.section-introduction .box-introduction h1 {
+    margin: 0;
+    font-size: 200%;
+    color: var(--secondary-highlight-color);
+    font-weight: 600;
+}
+
+.section-introduction .box-introduction h2 {
+    margin: 0;
+    margin-top: 5px;
+}
+
+.section-introduction .box-introduction .box-infos {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.section-introduction .box-introduction .box-infos > * {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+}
+
+.section-introduction .box-introduction .box-infos > *:first-child {
+    margin-left: 0;
+}
+
+.section-introduction .box-introduction .box-infos .svg-icon {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    background-color: #FFF;
+}
+
+.section-introduction .box-introduction .box-infos a:hover .svg-icon {
+    background-color: var(--secondary-highlight-color);
+}
+
+.section-introduction .box-introduction p {
+    opacity: 0.9;
+}
+
+@media only screen and (max-width: 900px)
+{
+    .section-introduction .box-introduction {
+        align-items: center;
+        text-align: center;
+    }
+
+    .section-introduction .box-infos {
+        justify-content: center;
+        margin: 15px auto;
+    }
+}

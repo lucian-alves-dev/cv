@@ -1,0 +1,115 @@
+.section-hard-skills .row {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+.section-hard-skills .row + .row {
+    margin-top: -30px;
+}
+
+.section-hard-skills .box-skill {
+    margin: 15px;
+    transition: 0.5s;
+}
+
+.section-hard-skills .box-skill .body {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: var(--primary-txt-color);
+    width: 230px;
+    height: 230px;
+}
+
+.section-hard-skills .box-skill .body .bg {
+    background-color: var(--primary-txt-color);
+    width: 100%;
+    height: 100%;
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    mask-size: contain;
+    mask-position: center;
+    mask-repeat: no-repeat;
+    background-image: linear-gradient(0deg, rgb(0 0 0 / 30%), transparent);
+}
+
+.section-hard-skills .box-skill .body > *  {
+    position: absolute;
+}
+
+.section-hard-skills .box-skill .body .title  {
+    top: 16%;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 80%;
+    margin: 0;
+}
+
+.section-hard-skills .box-skill .body .svg-icon {
+    width: 90px;
+    height: 90px;
+    background-color: var(--primary-highlight-color);
+    margin-top: -5%;
+    transition: 0.5s;
+}
+
+.section-hard-skills .box-skill .footer {
+    padding-top: 10px;
+    font-weight: 800;
+    font-size: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--primary-highlight-color);
+    transition: 0.5s;
+}
+
+.section-hard-skills .row.expert .box-skill .body {
+    width: 230px;
+    height: 230px;
+}
+
+.section-hard-skills .row.expert .box-skill .body {
+    color: #FFD700;
+}
+
+.section-hard-skills .row.expert .box-skill .body .bg {
+    background-color: #FFD700;
+    -webkit-mask-image: url(/img/skills/laurel-5-stars.svg);
+    mask-image: url(/img/skills/laurel-5-stars.svg);
+}
+
+.section-hard-skills .row.adept .box-skill {
+    transform: scale(0.8);
+}
+
+.section-hard-skills .row.adept .box-skill .body {
+    color: #8ebe8c;
+}
+
+.section-hard-skills .row.adept .box-skill .body .bg {
+    background-color: #8ebe8c;
+    -webkit-mask-image: url(/img/skills/laurel-3-stars.svg);
+    mask-image: url(/img/skills/laurel-3-stars.svg);
+}
+
+.section-hard-skills .box-skill:hover {
+    transform: scale(1.1);
+}
+
+.section-hard-skills .row.adept .box-skill:hover {
+    transform: scale(0.9);
+}
+
+.section-hard-skills .box-skill:hover .body .svg-icon {
+    background-color: var(--primary-highlight-color);
+}
+
+.section-hard-skills .box-skill:hover .footer {
+    color: var(--secondary-highlight-color);
+}

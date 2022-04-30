@@ -1,0 +1,82 @@
+.section-career .path-title {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    color: var(--primary-highlight-color);
+    font-weight: 600;
+}
+
+.section-career .path-title .icon {
+    margin-right: 10px;
+}
+
+.section-career .body {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.section-career .col.dev,
+.section-career .col.teach {
+    flex: 1 1 400px;
+    margin: 40px;
+}
+
+.section-career .box-timeline .checkpoint {
+    position: relative;
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+
+.section-career .box-timeline .checkpoint h3 {
+    color: var(--primary-highlight-color);
+    font-size: 150%;
+    font-weight: 600;
+    margin: 0;
+    transition: 0.25s;
+}
+
+.section-career .box-timeline .checkpoint small {
+    font-size: 80%;
+}
+
+.section-career .box-timeline .checkpoint p {
+    margin: 0;
+    margin-top: 5px;
+}
+
+.section-career .box-timeline .checkpoint::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: #C4C4C4;
+    top: 10px;
+    left: 0;
+    transition: 0.25s;
+}
+
+.section-career .box-timeline .checkpoint::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    background-color: #C4C4C4;
+    top: 20px;
+    left: 6px;
+}
+
+.section-career .box-timeline .checkpoint:last-child::before {
+    height: calc(100% - 60px);
+}
+
+.section-career .box-timeline .checkpoint:hover h3 {
+    color: var(--secondary-highlight-color);
+}
+
+.section-career .box-timeline .checkpoint:hover::after {
+    background-color: var(--secondary-highlight-color);
+    transform: scale(1.25);
+}

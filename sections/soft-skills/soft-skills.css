@@ -1,0 +1,80 @@
+.section-soft-skills {
+    padding-bottom: 30px;
+}
+
+.section-soft-skills .box-soft-skill {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    position: relative;
+}
+
+.section-soft-skills .box-soft-skill::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #c0c0c0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.section-soft-skills .box-soft-skill:last-child:after {
+    display: none;
+}
+
+.section-soft-skills .box-soft-skill > * {
+    padding: 30px 15px;
+}
+
+.section-soft-skills .box-soft-skill .svg-icon {
+    background-color: var(--primary-highlight-color);
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.section-soft-skills .box-soft-skill h2 {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    flex: 0 1 200px;
+    color: var(--primary-highlight-color);
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.section-soft-skills .box-soft-skill p {
+    flex: 1 1 600px;
+    margin: 0;
+    font-size: 110%;
+    line-height: 1.5;
+}
+
+.section-soft-skills .box-soft-skill {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.section-soft-skills .box-soft-skill:hover h2 {
+    color: var(--secondary-highlight-color);
+    transform: scale(1.1);
+}
+
+.section-soft-skills .box-soft-skill:hover .svg-icon {
+    background-color: var(--secondary-highlight-color);
+}
+
+@media only screen and (max-width: 900px)
+{
+    .section-soft-skills .box-soft-skill p {
+        text-align: center;
+        padding-top: 0;
+    }
+}

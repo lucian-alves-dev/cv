@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+:root {
+    --primary-highlight-color: #4B5A8A;
+    --secondary-highlight-color: #D4AF37;
+    --primary-highlight-gradient: linear-gradient(90deg, #1C2237, #4B5A8A);
+    --box-shadow: 0 4px 30px 1px rgba(0, 0, 0, 0.14);
+}
+
+* {
+    box-sizing: border-box;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    color: inherit;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    scroll-behavior: smooth;
+    line-height: 1.5;
+    cursor: default;
+}
+
+body.light {
+    --main-bg-color: #FFF;
+    --main-bg-page-color: #E3E3E3;
+    --main-txt-color: #777;
+}
+
+body.dark {
+    --main-bg-color: #333;
+    --main-bg-page-color: #222;
+    --main-txt-color: #CDCDCD;
+    --primary-highlight-color: #99aff2;
+}
+
+body {
+    margin: 0px;
+    min-height: 100vh;
+    background-color: var(--main-bg-page-color);
+    color: var(--main-txt-color);
+    transition: 0.5s;
+}
+
+*[data-load] { display: contents; }
+
+a {
+    color: var(--secondary-highlight-color);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: var(--secondary-highlight-color);
+    text-decoration: underline;
+}
+
+section {
+    box-shadow: var(--box-shadow);
+    background-color: var(--main-bg-color);
+    color: var(--main-txt-color);
+    border-radius: 10px;
+    margin: 30px;
+    margin-top: 90px;
+    padding-top: 30px;
+    position: relative;
+}
+
+section h1 {
+    background-color: var(--main-bg-color);
+    color: var(--primary-highlight-color);
+    box-shadow: var(--box-shadow);
+    padding: 10px 40px;
+    border-radius: 40px;
+    text-align: center;
+    margin: auto;
+    font-size: 150%;
+    text-transform: uppercase;
+    font-weight: 800;
+    width: max-content;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+hr {
+    width: 100%;
+    background-color: var(--main-txt-color);
+    border: none;
+    height: 1px;
+}
+
+.app-limits {
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.anchor {
+    position: relative;
+    padding-top: 40px;
+    margin-top: -70px;
+    z-index: -1;
+}
+
+@media only screen and (max-width: 900px)
+{
+    html {
+        font-size: 80%;
+    }
+}
