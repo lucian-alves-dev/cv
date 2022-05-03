@@ -1,8 +1,7 @@
-document.addEventListener("DOMContentLoaded", () => {
-    loadContent();
-});
+loadContent();
 
 document.addEventListener("DOMContentReady", () => {
+    console.log("DOMContentReady");
     initLanguageSelector();
     initThemeSelector();
     hideSplash();
