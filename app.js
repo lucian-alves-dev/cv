@@ -20,7 +20,7 @@ function loadContent()
         allPromises.push(promise);
     }
 
-    Promise.all(allPromises).then(() => {
+    Promise.all(allPromises).finally(() => {
         document.dispatchEvent(new Event('DOMContentReady'));
     });
 }
