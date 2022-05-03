@@ -26,9 +26,12 @@
     flex-flow: row wrap;
 }
 
+.app-footer .end .medias a {
+    padding: 8px;
+}
+
 .app-footer .end .medias .svg-icon {
     display: inline-block;
-    margin: 8px;
     width: 20px;
     height: 20px;
     background-color: #FFF;

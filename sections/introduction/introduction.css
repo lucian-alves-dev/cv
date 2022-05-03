@@ -34,7 +34,6 @@
     margin: 0;
     font-size: 200%;
     color: var(--secondary-highlight-color);
-    font-weight: 600;
 }
 
 .section-introduction .box-introduction h2 {
@@ -59,10 +58,13 @@
     margin-left: 0;
 }
 
+.section-introduction .box-introduction .box-infos a {
+    padding: 8px;
+}
+
 .section-introduction .box-introduction .box-infos .svg-icon {
     width: 20px;
     height: 20px;
-    margin: 5px;
     background-color: #FFF;
 }
 

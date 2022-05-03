@@ -7,18 +7,15 @@
     "about-me": "Sobre Mim",
     "language": "Linguagem",
     "theme": "Tema",
-
     "profession": "Desenvolvedor de Software e Professor de Informática",
     "age_place": "28 anos | Marília, SP - Brasil",
     "summary": "Desenvolvedor de software full stack com 5 anos de experiência em PHP e especialista em implementação front-end de alta fidelidade com conhecimento avançado em CSS e JavaScript. Também sou um experiente professor de informática movido pela paixão de compartilhar conhecimento e ajudar as pessoas a entender o básico e os \"segredos\" de se trabalhar com um computador.",
-    
     "trait_1": "Mágico do Frontend",
     "trait_1_desc": "Meu truque principal é transformar protótipos de UI em interfaces funcionais que funcionam como num passe de mágica.",
     "trait_2": "Engenheiro de Backend",
     "trait_2_desc": "Eficiência, segurança e manutenibilidade são os valores fundamentais que eu sigo na hora de programar soluções para o backend.",
     "trait_3": "Professor Dedicado",
     "trait_3_desc": "Programar é legal, mas ensinar é a minha verdadeira paixão.",
-
     "career_section_title": "Carreira",
     "career_path_1": "Programando",
     "job_1_period": "dez/2016 - dez/2017",
@@ -34,7 +31,6 @@
     "teach_2_desc": "Trabalhei voluntariamente em um projeto que forneceu gratuitamente um curso de informática básica exclusivamente para pessoas com 40 anos ou mais.",
     "teach_3_period": "mar/2020 - mar/2022",
     "teach_3_desc": "Ministrava aulas abordando temas que vão desde o uso básico de computadores (suite office) até programação avançada (desenvolvimento de sistemas web).",
-    
     "education_section_title": "Educação",
     "cert_1_type": "Ensino Técnico",
     "cert_1_title": "Informática",
@@ -42,19 +38,16 @@
     "cert_2_title": "Análise e Desenvolvimento de Sistemas",
     "cert_3_type": "Especialização",
     "cert_3_title": "Projeto de Aplicativos Móveis Multiplataforma",
-
     "expert": "Especialista",
     "adept": "Competente",
-
     "fast_learner": "Aprendo Rápido",
-    "fast_learner_desc": "Sempre que estou estudando sobre algum assunto de meu interesse, não demora muito até que eu consiga transformar a ideia teórica em algo prático. Essas coisas que aprendi sobre devops foram todas dentro de uma semana, durante meu tempo livre.",
+    "fast_learner_desc": "When I really want to study a new subject, learning flows very quickly, especially when I have the opportunity to put the new knowledge into practice.",
     "born_teacher": "Professor Nato",
-    "born_teacher_desc": "Estou acostumado a ajudar as pessoas a entender assuntos \"complexos\" desde que eu era uma criança no ensino fundamental. Não é por acaso que ensinar é meu segundo emprego e para ser sincero eu adoraria ser professor em tempo integral, mas desenvolvedores de software ganham muito mais e meu principal objetivo é focar em ganhar dinheiro agora para poder focar em fazer apenas o que eu amo no futuro.",
+    "born_teacher_desc": "I was always that student my colleagues turned to when they didn't understand the teacher's explanation. I recently had the opportunity to work professionally with education and I confess that, if the profession paid well, I would be a full-time teacher.",
     "problem_solver": "Resolvedor de Problemas",
-    "problem_solver_desc": "Problemas existem para serem resolvidos, não para ficar reclamando sobre. E se não há solução para um problema, então não há problema.",
-    "plainspoken": "Objetivo",
-    "plainspoken_desc": "Falar é prata, ouvir é ouro. Mas na hora de falar, principalmente no ambiente de trabalho, gosto sempre de seguir esses três princípios: honestidade, objetividade e clareza.",
-
+    "problem_solver_desc": "O único pensamento que tenho quando enxergo um problema é \"Como isso pode ser resolvido?\" e não me aquieto até achar a solução. Caso seja um problema impossível ou inviável de se resolver, eu só aceito e sigo em frente.",
+    "plainspoken": "Poucas Ideias",
+    "plainspoken_desc": "Não sou muito de falar, mas quando pedem minha opinião respondo de maneira franca e direta.",
     "about_me_section_title": "Sobre Mim",
     "teamwork": "Trabalho em Equipe",
     "teamwork_desc": "Faço a maior parte do meu trabalho sozinho e gosto de ter bastante autonomia na hora de propor e desenvolver soluções. <br><br> Estou sempre disposto a ajudar meus colegas de trabalho e também não tenho vergonha em pedir ajuda quando preciso.",
@@ -66,6 +59,5 @@
     "languages_affinity_desc": "Me sinto muito confortável usando apenas os recursos nativos de linguagens como JS  e CSS, principalmente em situações que exigem uma implementação frontend à nível 'Pixel Perfect'.  <br><br> Por esse mesmo motivo, dispenso o uso de frameworks e plugins tais como jQuery e Bootstrap.",
     "english_level": "Nível de Inglês",
     "english_level_desc": "Ouço e leio inglês muito bem, mas ainda não me sinto confiante ao escrever e falar. Venho praticando essas habilidades com o objetivo de atingir a fluência ainda este ano.",
-
     "app_footer_info": "Esta página foi feita do zero, sem absolutamente nenhum uso de plugins, frameworks ou templates de terceiros, como forma de mostrar minhas habilidades brutas com HTML e CSS e JS. <br><br> Se você quiser ver meu código em um aplicativo full stack, visite minha página no Github e confira meu repositório 'Laravue'. Você também pode acessar o código-fonte desta página de currículo no meu repositório Github."
 }

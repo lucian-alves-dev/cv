@@ -80,8 +80,8 @@
 
 .section-hard-skills .row.expert .box-skill .body .bg {
     background-color: #FFD700;
-    -webkit-mask-image: url(/img/skills/laurel-5-stars.svg);
-    mask-image: url(/img/skills/laurel-5-stars.svg);
+    -webkit-mask-image: url(/icons/laurel-5-stars.svg);
+    mask-image: url(/icons/laurel-5-stars.svg);
 }
 
 .section-hard-skills .row.adept .box-skill {
@@ -94,8 +94,8 @@
 
 .section-hard-skills .row.adept .box-skill .body .bg {
     background-color: #8ebe8c;
-    -webkit-mask-image: url(/img/skills/laurel-3-stars.svg);
-    mask-image: url(/img/skills/laurel-3-stars.svg);
+    -webkit-mask-image: url(/icons/laurel-3-stars.svg);
+    mask-image: url(/icons/laurel-3-stars.svg);
 }
 
 .section-hard-skills .box-skill:hover {

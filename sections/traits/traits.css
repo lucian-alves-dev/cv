@@ -25,8 +25,8 @@ section.section-traits {
 
 .section-traits .box-trait .svg-icon {
     background-color: var(--primary-highlight-color);
-    width: 150px;
-    height: 150px;
+    width: 125px;
+    height: 125px;
 }
 
 .section-traits .box-trait h2 {
@@ -38,6 +38,7 @@ section.section-traits {
 
 .section-traits .box-trait:hover .svg-icon {
     background-color: var(--secondary-highlight-color);
+    transform: scale(1.1);
 }
 
 .section-traits .box-trait:hover h2 {

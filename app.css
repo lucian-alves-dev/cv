@@ -1,4 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@font-face {
+    src: url(/fonts/open-sans-regular.ttf);
+    font-family: 'Open Sans';
+    font-weight: normal;
+}
+
+@font-face {
+    src: url(/fonts/open-sans-semi-bold.ttf);
+    font-family: 'Open Sans';
+    font-weight: 600;
+}
+
+@font-face {
+    src: url(/fonts/open-sans-bold.ttf);
+    font-family: 'Open Sans';
+    font-weight: 800;
+}
 
 :root {
     --primary-highlight-color: #4B5A8A;
@@ -26,7 +42,7 @@ html {
 body.light {
     --main-bg-color: #FFF;
     --main-bg-page-color: #E3E3E3;
-    --main-txt-color: #777;
+    --main-txt-color: #555;
 }
 
 body.dark {
@@ -44,7 +60,9 @@ body {
     transition: 0.5s;
 }
 
-*[data-load] { display: contents; }
+*[data-load] {
+    display: contents;
+}
 
 a {
     color: var(--secondary-highlight-color);
@@ -106,8 +124,7 @@ hr {
     z-index: -1;
 }
 
-@media only screen and (max-width: 900px)
-{
+@media only screen and (max-width: 900px) {
     html {
         font-size: 80%;
     }

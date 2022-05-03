@@ -6,8 +6,9 @@
     font-weight: 600;
 }
 
-.section-career .path-title .icon {
+.section-career .path-title .svg-icon {
     margin-right: 10px;
+    background-color: var(--primary-highlight-color);;
 }
 
 .section-career .body {

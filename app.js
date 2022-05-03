@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentReady", () => {
     initLanguageSelector();
     initThemeSelector();
+    hideSplash();
 });
 
 function loadContent()
@@ -96,4 +97,18 @@ function setTheme(theme)
 
     document.querySelector('body').classList.add(theme);
     localStorage.setItem('userTheme', theme);
+}
+
+function hideSplash()
+{
+    let splash = document.querySelector(".splash");
+    if(! splash) return;
+
+    setTimeout(() => {
+        splash.classList.add("hidden");
+    }, 500);
+
+    setTimeout(() => {
+        splash.parentElement.removeChild(splash);
+    }, 1000);
 }

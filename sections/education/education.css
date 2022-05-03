@@ -38,17 +38,17 @@
 }
 
 .section-education .row-school > * {
-    flex-basis: 100px;
-    padding: 0 5px;
+    padding: 0 10px;
 }
 
 .section-education .row-school > *:first-child { text-align: right; }
 .section-education .row-school > *:last-child { text-align: left; font-size: 90%; }
 
-.section-education .row-school > .icon {
-    font-size: 30px;
-    color: var(--primary-highlight-color);
-    flex-basis: 0;
+.section-education .row-school > .svg-icon {
+    width: 30px;
+    height: 30px;
+    flex-basis: 30px;
+    background-color: var(--primary-highlight-color);
 }
 
 .section-education h2 {

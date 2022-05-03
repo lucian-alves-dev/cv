@@ -1,0 +1,123 @@
+.svg-icon {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    mask-size: contain;
+    mask-position: center;
+    mask-repeat: no-repeat;
+    background-color: #000;
+    transition: 0.5s;
+}
+
+.svg-icon.menu {
+    -webkit-mask-image: url(/icons/menu.svg);
+    mask-image: url(/icons/menu.svg);
+}
+
+.svg-icon.magician {
+    -webkit-mask-image: url(/icons/magician.svg);
+    mask-image: url(/icons/magician.svg);
+}
+
+.svg-icon.engineer {
+    -webkit-mask-image: url(/icons/engineer.svg);
+    mask-image: url(/icons/engineer.svg);
+}
+
+.svg-icon.teacher {
+    -webkit-mask-image: url(/icons/teacher.svg);
+    mask-image: url(/icons/teacher.svg);
+}
+
+.svg-icon.html {
+    -webkit-mask-image: url(/icons/html.svg);
+    mask-image: url(/icons/html.svg);
+}
+
+.svg-icon.css {
+    -webkit-mask-image: url(/icons/css.svg);
+    mask-image: url(/icons/css.svg);
+}
+
+.svg-icon.js {
+    -webkit-mask-image: url(/icons/js.svg);
+    mask-image: url(/icons/js.svg);
+}
+
+.svg-icon.php {
+    -webkit-mask-image: url(/icons/php.svg);
+    mask-image: url(/icons/php.svg);
+}
+
+.svg-icon.sql {
+    -webkit-mask-image: url(/icons/sql.svg);
+    mask-image: url(/icons/sql.svg);
+}
+
+.svg-icon.git {
+    -webkit-mask-image: url(/icons/git.svg);
+    mask-image: url(/icons/git.svg);
+}
+
+.svg-icon.linux {
+    -webkit-mask-image: url(/icons/linux.svg);
+    mask-image: url(/icons/linux.svg);
+}
+
+.svg-icon.vue {
+    -webkit-mask-image: url(/icons/vue.svg);
+    mask-image: url(/icons/vue.svg);
+}
+
+.svg-icon.fast-learner {
+    -webkit-mask-image: url(/icons/fast-learner.svg);
+    mask-image: url(/icons/fast-learner.svg);
+}
+
+.svg-icon.born-teacher {
+    -webkit-mask-image: url(/icons/born-teacher.svg);
+    mask-image: url(/icons/born-teacher.svg);
+}
+
+.svg-icon.problem-solver {
+    -webkit-mask-image: url(/icons/problem-solver.svg);
+    mask-image: url(/icons/problem-solver.svg);
+}
+
+.svg-icon.plainspoken {
+    -webkit-mask-image: url(/icons/plainspoken.svg);
+    mask-image: url(/icons/plainspoken.svg);
+}
+
+.svg-icon.email {
+    -webkit-mask-image: url(/icons/email.svg);
+    mask-image: url(/icons/email.svg);
+}
+
+.svg-icon.github {
+    -webkit-mask-image: url(/icons/github.svg);
+    mask-image: url(/icons/github.svg);
+}
+
+.svg-icon.linkedin {
+    -webkit-mask-image: url(/icons/linkedin.svg);
+    mask-image: url(/icons/linkedin.svg);
+}
+
+.svg-icon.medal {
+    -webkit-mask-image: url(/icons/medal.svg);
+    mask-image: url(/icons/medal.svg);
+}
+
+.svg-icon.school {
+    -webkit-mask-image: url(/icons/school.svg);
+    mask-image: url(/icons/school.svg);
+}
+
+.svg-icon.code {
+    -webkit-mask-image: url(/icons/code.svg);
+    mask-image: url(/icons/code.svg);
+}
